@@ -9,7 +9,7 @@ push r13
 push r14
 push r15
 addpd xmm0, xmm1
-mov rax, 0x1
+mov rax, 1
 pop r15
 pop r14
 pop r13

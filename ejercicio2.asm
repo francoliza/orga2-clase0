@@ -17,7 +17,7 @@ imprimir_parametros:
     mov rsi, rdi
     mov rdi, msg
     mov rdx, r12
-    mov rax, 1
+    mov rax, 0x01
     call printf
     pop r15
     pop r14
